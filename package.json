@@ -1,0 +1,13 @@
+{
+  "name": "purescript-concurur",
+  "version": "0.0.1",
+  "description": "Purescript + Concur + Rossum's Universal Robots",
+  "main": "index.js",
+  "scripts": {
+    "build": "pulp build",
+    "build-examples": "pulp browserify -I examples --to html/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anupam Jain <ajnsit@gmail.com>",
+  "license": "MIT"
+}
