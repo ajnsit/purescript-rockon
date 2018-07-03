@@ -1,7 +1,7 @@
 {
-  "name": "purescript-concurur",
+  "name": "purescript-rockon",
   "version": "0.0.1",
-  "description": "Purescript + Concur + Rossum's Universal Robots",
+  "description": "Robotics + Concur",
   "main": "index.js",
   "scripts": {
     "build": "pulp build",

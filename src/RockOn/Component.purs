@@ -1,4 +1,4 @@
-module Concurur.Component where
+module RockOn.Component where
 
 import Prelude
 

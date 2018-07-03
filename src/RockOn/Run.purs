@@ -1,9 +1,9 @@
-module Concurur.Run where
+module RockOn.Run where
 
 import Prelude
 
 import Concur.Core (Widget)
-import Concurur (HUI, renderComponent)
+import RockOn (HUI, renderComponent)
 import Data.Maybe (Maybe(..))
 import Effect (Effect)
 import ReactDOM as ReactDOM

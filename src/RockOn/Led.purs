@@ -1,8 +1,8 @@
-module Concurur.Led where
+module RockOn.Led where
 
 import Concur.Core (Widget)
-import Concurur (HUI, hwWidget)
-import Concurur.Component (HWComponent(..))
+import RockOn (HUI, hwWidget)
+import RockOn.Component (HWComponent(..))
 import Effect (Effect)
 import JohnnyFive.Led.FFI (Led)
 import JohnnyFive.Led.FFI as Led

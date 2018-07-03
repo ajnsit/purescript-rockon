@@ -1,11 +1,11 @@
-module Concurur where
+module RockOn where
 
 import Prelude
 
 import Concur.Core (Widget, display, mapView, mkLeafWidget, wrapViewEvent)
 import Concur.Core.Discharge (discharge, dischargeAsync)
 import Concur.React.Props (Props, mkProp)
-import Concurur.Component (HWComponent, runHW)
+import RockOn.Component (HWComponent, runHW)
 import Control.MultiAlternative (class MultiAlternative, orr)
 import Control.ShiftMap (class ShiftMap, shiftMap)
 import Data.Array (singleton)

@@ -1,11 +1,11 @@
-module Concurur.DOM where
+module RockOn.DOM where
 
 import Prelude hiding (div,map,sub)
 
 import Concur.Core (Widget)
 import Concur.Core (display) as R
 import Concur.React.Props (Props)
-import Concurur (HTML, HUI, el', elLeaf, liftHTMLWidget)
+import RockOn (HTML, HUI, el', elLeaf, liftHTMLWidget)
 import Control.MultiAlternative (class MultiAlternative)
 import Control.ShiftMap (class ShiftMap)
 import React.DOM as D
@@ -21,7 +21,7 @@ display :: forall a. HTML -> Widget HUI a
 display = liftHTMLWidget <<< R.display
 
 -- These adapter functions are needed because we changed the signature of `el` etc.
---   in Concurur, compared to in ordinary Concur
+--   in RockOn, compared to in ordinary Concur
 
 adapt1 :: forall a b. (a -> b) -> a -> Array b
 adapt1 = (<<<) pure
